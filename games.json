@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Exploding Kittens",
+    "rating": 5,
+    "minPlayers": 2,
+    "maxPlayers": 9,
+    "duration": 15,
+    "difficulty": "Easy",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "images": [
+      "http://blogs-images.forbes.com/laurenorsini/files/2015/08/b-ue1aaciaa599r.jpg"
+    ]
+  },
+  {
+    "title": "Takenoko",
+    "rating": 5,
+    "minPlayers": 2,
+    "maxPlayers": 9,
+    "duration": 15,
+    "difficulty": "Easy",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "images": [
+      "http://blogs-images.forbes.com/laurenorsini/files/2015/08/b-ue1aaciaa599r.jpg"
+    ]
+  },
+  {
+    "title": "Takaido",
+    "rating": 4,
+    "minPlayers": 2,
+    "maxPlayers": 9,
+    "duration": 15,
+    "difficulty": "Easy",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "images": [
+      "http://blogs-images.forbes.com/laurenorsini/files/2015/08/b-ue1aaciaa599r.jpg"
+    ]
+  },
+  {
+    "title": "Settlers of Catan",
+    "rating": 4,
+    "minPlayers": 2,
+    "maxPlayers": 9,
+    "duration": 15,
+    "difficulty": "Easy",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "images": [
+      "http://blogs-images.forbes.com/laurenorsini/files/2015/08/b-ue1aaciaa599r.jpg"
+    ]
+  },
+  {
+    "title": "Monopoly",
+    "rating": 3,
+    "minPlayers": 2,
+    "maxPlayers": 9,
+    "duration": 15,
+    "difficulty": "Easy",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "images": [
+      "http://blogs-images.forbes.com/laurenorsini/files/2015/08/b-ue1aaciaa599r.jpg"
+    ]
+  }
+]
