@@ -1,0 +1,244 @@
+@import "../../node_modules/bootstrap/less/bootstrap";
+@fa-font-path: "fonts";
+@import "../../node_modules/font-awesome/less/font-awesome";
+@footer-height: 30px;
+body {
+  padding-top: 50px;
+  margin-bottom: @footer-height;
+  background-image: url("http://img.wonderhowto.com/img/34/18/63411095856461/0/scrabble-2-men-created-trivial-pursuit-rip-chris-haney.w654.jpg");
+  background-position: center;
+  background-size: cover;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: @footer-height;
+  line-height: @footer-height;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  p {
+    margin: 0 auto;
+  }
+}
+#info-jumbotron {
+  background-color: #edc951;
+}
+#info-search {
+  background-color: #00a0b0;
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+}
+#gameform-jumbotron {
+  background-color: #00a0b0;
+}
+#addGame-button {
+  background-color: #edc951;
+}
+#results-jumbotron {
+  background-color: #eb6841;
+}
+#searchDetail-panel {
+  background-color: #00a0b0;
+}
+.gamedetailstitle {
+  text-align: center;
+  padding: 10px 0 0;
+  font-size: 35px;
+  text-shadow: 1px 1px #26b2cc;
+  font-weight: bolder;
+  color: #999;
+}
+.gamedeatilitem {
+  padding-top: 30px;
+}
+.detailsinfo {
+  padding-top: 18px;
+  font-style: italic;
+}
+.gamedetailsdetails {
+  height: 200px;
+  overflow: scroll;
+  background-color: #edc951;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.detailsrating {
+  padding-bottom: 10px;
+}
+.carousel {
+  border: 3px solid gray;
+  border-radius: 10px;
+}
+.gamepic {
+  width: 100%;
+}
+.carousel-inner {
+  width: 100%;
+  max-height: 250px !important;
+}
+.gameImg {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+}
+.btn-success {
+  border: 1px solid green;
+  border-radius: 10%;
+}
+.inline {
+  display: inline-flex;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.well {
+  font-size: 22px;
+  padding-left: 20px;
+  p {
+    margin: 10px;
+  }
+}
+
+/* centered columns styles */
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+.centerBlock {
+  display: table;
+  margin: 0 auto;
+}
+.content {
+  width: 50%;
+  margin-left: 25%;
+  align-content: flex-end;
+}
+@media (max-width: 500px) {
+  #gameForm p {
+    display: none;
+  }
+}
+.splashgamepad {
+  color: #edc951;
+}
+.splashpuzzle {
+  color: #195b00;
+}
+.splashtrophy {
+  color: #00a0b0;
+}
+.splashwelcome {
+  text-align: center;
+  padding: 30px;
+  font-size: 75px;
+  font-style: italic;
+  color: black;
+  font-size: 3em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#splashtext {
+  font-size: 20px;
+  color: #eee;
+  text-shadow: 0 2px 2px #666;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.splashpopout {
+  border: solid;
+  border-radius: 10px;
+  background-color: rgba(204,42,54, 0.75);
+
+  // background-image: url(http://img.wonderhowto.com/img/34/18/63411095856461/0/scrabble-2-men-created-trivial-pursuit-rip-chris-haney.w654.jpg);
+}
+#startnow {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px;
+  color: #272c32;
+  background-color: #00a0b0;
+  border: 3px solid #393939;
+  border-radius: 10px;
+  margin: 20px auto;
+  &:hover {
+    background-color: rgba(255,204,0,0.8);
+  }
+}
+#introcopy {
+  font-size: 14px;
+  position: relative;
+
+  // top: -55px;
+  opacity: 0.7;
+  padding: 20px;
+  border: 5px double rgb(221, 145, 240);
+  background: white;
+  margin: 10px;
+}
+.info-collect,
+.search-results,
+.new-game,
+.splashcontainer,
+.signup {
+  margin-top: 30px;
+  p {
+    margin: 20px;
+  }
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  .form-signin-heading,
+  .checkbox {
+    margin-bottom: 10px;
+  }
+  .checkbox {
+    font-weight: normal;
+  }
+  .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-control:focus {
+    z-index: 2;
+  }
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  input[type="email"] {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: -1px;
+  }
+
+  input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
