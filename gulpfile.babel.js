@@ -6,6 +6,7 @@ import browserSync from 'browser-sync';
 import less from 'gulp-less';
 import ghPages from 'gh-pages';
 import gutil from 'gulp-util';
+import fs from 'fs';
 
 const sync = browserSync.create();
 
@@ -26,22 +27,10 @@ gulp.task('json', () => {
 });
 
 gulp.task('script', () => {
-  browserify({
-      entries: ['./src/scripts/main.jsx'],
-      extensions: ['.js', '.jsx'],
-      debug: true
-    }).transform(babelify.configure({
-      optional: ['es7.classProperties']
-    })).bundle()
-    .on('error', (error) => {
-      gutil.log(gutil.colors.red('Error: ' + error.message));
-      gutil.beep();
-    })
-    .pipe(source('bundle.js'))
-    .pipe(gulp.dest('dist'))
-    .pipe(sync.reload({
-      stream: true
-    }));
+  browserify().transform(babelify.configure({
+  presets: ["es2015", "react"] }))
+    .bundle()
+    .pipe(fs.createWriteStream("bundle.js"))
 });
 
 gulp.task('styles', ['fonts'], () => {
